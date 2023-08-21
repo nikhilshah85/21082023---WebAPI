@@ -1,0 +1,8 @@
+Try
+in the same application
+
+add a new controller : technology
+
+add an action method which will return list of technologies
+
+https://localhost:portno/technologies/list

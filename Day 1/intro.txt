@@ -1,0 +1,28 @@
+1. What is WebAPI and what are REST standards
+2. How to develop an WebAPI application  (Middleware)
+3. How to use consume WebAPI in frontend apps (ASP.MVC Core) - frontend
+
+implement deisgn patterns with WebAPI
+
+1. ORM pattern - Object Relational Mapping (Entity Framework)
+	perform CRUD operations with SQL Server
+2. Repository Pattern 
+
+3. .net core and open source features 
+	DI - Dependency Injection 
+	Middlware in .net core
+	CORS (Cross origin resorce shareing)
+	Swagger - Swashbuckel for testing api (inbuilt with .net core 5.0)
+ 	Routing
+
+-------------------------------------------------------------------
+Pre-requisite
+
+1. OOPS fundmental 
+	HTML + CSS + JS basics
+2. Softwares
+	Visual Studio 2022
+	SQL Server 2016 or above
+	SSMS
+	GIT (to download demos)
+--------------------------------------------------------
