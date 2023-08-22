@@ -1,0 +1,16 @@
+Day 2 :
+
+First WebAPI with InMemory collection and CRUD operations 
+
+technologyAPI
+
+Work with List<String> techList to 
+	Get list
+	Get by Id
+	Get (search)
+	Sort
+	Count
+	Filter
+	Post
+	Put
+	Delete

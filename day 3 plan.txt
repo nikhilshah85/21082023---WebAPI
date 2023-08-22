@@ -1,0 +1,15 @@
+Rest of the time
+
+1. Read the below document
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+2. Add a new controller - Products
+	add list of products
+
+	allow CRUD operations on the same
+
+--------------------------------------------------
+Day 3 
+
+First WebAPI with in-Memory collection of Object
