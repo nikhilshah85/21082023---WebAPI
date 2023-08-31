@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "consumeAPI_fetch/1.0.0": {
+        "runtime": {
+          "consumeAPI_fetch.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "consumeAPI_fetch/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

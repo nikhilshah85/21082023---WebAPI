@@ -1,0 +1,38 @@
+1. Develop an WebAPI for clients / projects
+2. Consume WebAPI in front end applications (ASP.net mcv, Angular, react, desktop app, library, static web pages)
+	2 approach to consume this
+		a. Client side useing FetchAPI (this is an api built into every modern browser) - part of web standards
+			we use Javascript/jquery for this
+			This is fastest bit unsafe
+		b. Server side useing HttpClient (part of web standards)
+			this is safest little bit slow than above 1
+
+----------------------------------------------------------------
+
+	1. fetch api is a browser based - javascript built in APi 
+	2. returns a promise - easy to use - clubbed with HTML and CSS
+		fetch(url).then( ...)
+			  .then(....)
+			  .catch(.....)
+			  .finally(..)
+
+			this is like a try catch block
+
+	3. HttpClient is used with Programming languages like C#, VB, C++ and even typescript
+
+		steps
+		a. create a class with properies of data which is going to come from url
+			eg. if you are makeing a call to below URL 
+			https://jsonplaceholder.typicode.com/posts
+
+			create a class PostDetails (any name)
+			add 4 properties - getter and setter 
+
+		b. add a collection variable to hold the data (collection because incomeing data is an array)
+
+		c. create method in class to make a call useing HttpClient
+
+		d. Call the method in Controller and display data on a view
+
+
+

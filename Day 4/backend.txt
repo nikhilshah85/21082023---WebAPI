@@ -1,0 +1,29 @@
+1. We now know what is WebAPI - how to create the same
+2. We did webapi with Inmemory collection of primitive data type and Object
+3. You how to use Swagger
+--- we are on a verge of completeing the project as well
+
+4.We were go get started with Entity framework on sql server for CRUD operations and create a webapi
+	since ppl are not here much today, we will do half part and major part in next session
+
+-------------------------------------
+
+	a. Create a new database - shoppingDB
+	b. add 3 tables to the database
+		a. products
+			productId, productName, productCategory, productPrice, productDescription, productIsInStock, productAvailQty
+		
+				productId is primary key
+				add 15 products to the table
+
+		b. customers
+			customerId, customerName, customerCity,customerWalletBalance, customeType, customerIsActive
+				customerId is a primary key
+				add 10 customers to the table
+
+		c. cartInfo
+			id identity column, cartId, customerId, productId, productQty
+				customerId is a foreign key to customers
+				productId is a foreign key to products
+				add some data to test	
+					
