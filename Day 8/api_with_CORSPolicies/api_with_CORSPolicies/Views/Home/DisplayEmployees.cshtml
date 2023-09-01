@@ -1,0 +1,24 @@
+﻿
+
+<h1> Employee Details </h1>
+
+<button class="btn btn-primary" onclick="getData()">Show Employees</button>
+<table class="table table-bordered"></table>
+
+<script>
+    function getData()
+    {
+        var url = "https://localhost:7145/employee/list";
+
+        fetch(url).then(dataType=>dataType.json())
+                  .then(result =>{
+                    alert('Got data');
+                    console.log(result);
+                  }).
+                  catch(err =>{
+                    alert('Errrrr');
+                    console.log(err);
+                  })
+    }
+</script>
+
